@@ -1,0 +1,49 @@
+.code-panel {
+  min-width: 0;
+}
+
+.code-block {
+  max-width: 100%;
+  margin: 0;
+  padding: 16px;
+  overflow: auto;
+  border: 1px solid #223147;
+  border-radius: 8px;
+  color: #d8e2f0;
+  background: #0f172a;
+  font-size: 14px;
+  line-height: 1.65;
+  tab-size: 2;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+.token-comment {
+  color: #8aa0b8;
+  font-style: italic;
+}
+
+.token-string {
+  color: #a7f3d0;
+}
+
+.token-keyword {
+  color: #93c5fd;
+  font-weight: 750;
+}
+
+.token-global {
+  color: #fcd34d;
+}
+
+.token-function {
+  color: #67e8f9;
+}
+
+.token-number {
+  color: #fca5a5;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Node Practice Lab",
+  "short_name": "Node Lab",
+  "description": "一个面向 Node.js 初学者的移动端友好练习实验室。",
+  "start_url": "/node-practice-lab/",
+  "scope": "/node-practice-lab/",
+  "display": "standalone",
+  "background_color": "#f5f8f4",
+  "theme_color": "#152018",
+  "icons": [
+    {
+      "src": "/node-practice-lab/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/node-practice-lab/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
