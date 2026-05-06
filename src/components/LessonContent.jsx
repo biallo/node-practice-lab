@@ -1,4 +1,5 @@
 import { CodeBlock } from './CodeBlock.jsx';
+import { reviewAnswers } from '../data/review-answers.js';
 
 export function LessonContent({ isDone, lesson, onDone, tab }) {
   if (tab === 'review') {
@@ -48,6 +49,8 @@ function ExplainContent({ lesson }) {
 }
 
 function ReviewContent({ isDone, lesson, onDone }) {
+  const answers = reviewAnswers[lesson.id] ?? [];
+
   return (
     <section className="content-grid" role="tabpanel">
       <article className="panel">
@@ -73,9 +76,22 @@ function ReviewContent({ isDone, lesson, onDone }) {
           <h2>复盘</h2>
         </div>
         <ol className="checklist">
-          {lesson.review.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
+          {lesson.review.map((item, index) => {
+            const question = typeof item === 'string' ? item : item.question;
+            const answer = typeof item === 'string' ? answers[index] : item.answer;
+
+            return (
+              <li key={question}>
+                <p>{question}</p>
+                {answer ? (
+                  <details>
+                    <summary>参考答案</summary>
+                    <p>{answer}</p>
+                  </details>
+                ) : null}
+              </li>
+            );
+          })}
         </ol>
         <button className={isDone ? 'complete-button done' : 'complete-button'} type="button" onClick={onDone} disabled={isDone}>
           {isDone ? '已完成' : '完成课程'}

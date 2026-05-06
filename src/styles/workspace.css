@@ -175,6 +175,30 @@
   line-height: 1.6;
 }
 
+.checklist li > p {
+  margin: 0;
+}
+
+.checklist details {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e4eaf2;
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.checklist summary {
+  color: #b9472f;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.checklist details p {
+  margin: 8px 0 0;
+  color: #475467;
+}
+
 .complete-button {
   display: inline-flex;
   align-items: center;
