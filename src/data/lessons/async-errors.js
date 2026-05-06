@@ -2,7 +2,7 @@ export const lesson = {
   "id": "async-errors",
   "title": "异步、Promise 与错误处理",
   "meta": "核心 · v16+",
-  "version": "早期 Node 大量使用 error-first callback；现代 Node 内置模块普遍提供 Promise API。v20 以后写 async/await 已经是主流基础能力。",
+  "version": "早期 Node 大量使用 error-first callback。\n现代 Node 内置模块普遍提供 Promise API。\nv20 以后写 async/await 已经是主流基础能力。",
   "summary": "从回调迁移到 async/await，理解错误分类、取消、并发失败、错误链和进程级兜底，避免把所有失败都写成一个 catch。",
   "explain": [
     {

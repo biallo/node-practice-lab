@@ -2,7 +2,7 @@ export const lesson = {
   "id": "diagnostics",
   "title": "诊断、性能与发布",
   "meta": "工程 · v18+",
-  "version": "Node 的诊断能力一直在增强。生产版本选择上，Current 适合试新能力，Active LTS/Maintenance LTS 更适合真实服务。",
+  "version": "Node 的诊断能力一直在增强。\n生产版本选择上，Current 适合试新能力，Active LTS/Maintenance LTS 更适合真实服务。",
   "summary": "建立可观察性意识：结构化日志、耗时、内存、CPU、诊断通道、健康检查、CI 构建和版本策略。",
   "explain": [
     {

@@ -13,15 +13,15 @@ function ExplainContent({ lesson }) {
     <section className="content-grid" role="tabpanel">
       <article className="panel wide version-note">
         <div className="section-title">
-          <strong>版本演进</strong>
-          <h2>这节课的新旧边界</h2>
+          <strong>Evolution</strong>
+          <h2>版本演进</h2>
         </div>
         <p>{lesson.version}</p>
       </article>
 
       <article className="panel">
         <div className="section-title">
-          <span>Concepts</span>
+          <span>Features</span>
           <h2>方法与特性</h2>
         </div>
         <div className="feature-list">
@@ -36,7 +36,7 @@ function ExplainContent({ lesson }) {
 
       <article className="panel">
         <div className="section-title">
-          <span>Example</span>
+          <span>Code</span>
           <h2>代码示例</h2>
         </div>
         <div className="code-panel">
@@ -69,8 +69,8 @@ function ReviewContent({ isDone, lesson, onDone }) {
 
       <article className="panel">
         <div className="section-title">
-          <span>Checklist</span>
-          <h2>复盘问题</h2>
+          <span>Review</span>
+          <h2>复盘</h2>
         </div>
         <ol className="checklist">
           {lesson.review.map((item) => (

@@ -2,7 +2,7 @@ export const lesson = {
   "id": "http-fetch",
   "title": "HTTP 服务与 fetch",
   "meta": "必修 · v20+",
-  "version": "过去常装 request、node-fetch、axios；现代 Node 已内置 fetch，底层由 Undici 驱动。Node v26 使用 Undici 8，但生产仍建议以 LTS 行为为准。",
+  "version": "过去常装 request、node-fetch、axios；\n现代 Node 已内置 fetch，底层由 Undici 驱动。\nNode v26 使用 Undici 8，但生产仍建议以 LTS 行为为准。",
   "summary": "同时理解服务端请求处理和客户端请求发送，知道状态码、header、body、超时、取消、连接复用和 streaming response。",
   "explain": [
     {

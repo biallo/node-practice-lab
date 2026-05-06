@@ -105,6 +105,7 @@
 .compare-grid p {
   color: #475467;
   line-height: 1.7;
+  white-space: pre-wrap;
 }
 
 .version-note p {

@@ -3,7 +3,7 @@ export const lesson = {
   title: 'Crypto、Web Crypto 与密码学边界',
   meta: '安全 · v18+',
   version:
-    'Node 传统 node:crypto API 长期存在，现代 Node 也提供 Web Crypto API（globalThis.crypto.subtle），更贴近浏览器标准。新代码要区分哈希、HMAC、加密、签名和密码存储，不要自创算法。',
+    'Node 传统 node:crypto API 长期存在，现代 Node 也提供 Web Crypto API（globalThis.crypto.subtle），更贴近浏览器标准。\n新代码要区分哈希、HMAC、加密、签名和密码存储，不要自创算法。',
   summary: '理解随机数、哈希、HMAC、对称加密、签名、Web Crypto 和密码存储边界，知道哪些事情不能自己发明。',
   explain: [
     {
