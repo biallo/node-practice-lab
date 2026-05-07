@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "runtime",
   "title": "Node.js 运行模型",
-  "meta": "入门 · v18+",
+  "meta": "入门 · v18+ (2022+)",
   "version": "旧版本常把 Node 当成“能跑 JS 的命令行”；\n现代学习要把它看作运行时平台。\nv20/v22/v24 都适合学习事件循环、进程、环境变量和内置模块，v24 LTS 是当前主线。",
   "summary": "先理解 Node.js 的组成、事件循环、任务队列、进程边界和资源成本，后面学习文件、网络、测试和部署才不会只停留在 API 记忆。",
   "explain": [

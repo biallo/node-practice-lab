@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'cache-lifecycle',
   title: '缓存、连接池与资源生命周期',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '缓存和池化能提升性能，也会制造陈旧数据、内存增长和关闭困难。\n现代 Node 服务需要理解 TTL、LRU、连接复用、句柄释放和后台任务清理。',
   summary: '学习 in-memory cache、TTL、LRU、连接池、文件句柄、定时器和 AbortSignal 的生命周期管理。',

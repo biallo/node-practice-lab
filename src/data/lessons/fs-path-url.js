@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "fs-path-url",
   "title": "文件系统、路径与 URL",
-  "meta": "必修 · v18+",
+  "meta": "必修 · v18+ (2022+)",
   "version": "fs/promises 在现代 Node 中非常成熟。\n旧代码常依赖 process.cwd() 和字符串拼接；\n现代代码更强调 URL、path、跨平台路径和目录边界校验。",
   "summary": "掌握读取、写入、创建目录、JSON 格式化、原子写入和路径边界校验，避免脚本在不同工作目录或不同系统上失效。",
   "explain": [

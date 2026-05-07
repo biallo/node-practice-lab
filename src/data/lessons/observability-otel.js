@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'observability-otel',
   title: 'OpenTelemetry 与可观测性进阶',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '现代 Node 服务排障不只靠日志；\nOpenTelemetry 把 trace、metric 和 log 组织成跨服务的观测协议，AsyncLocalStorage 和 diagnostics_channel 则是 Node 生态接入追踪上下文的重要基础。',
   summary: '理解 trace、span、metrics、logs、traceId/requestId 和上下文传播，知道如何把 Node 服务接入可观测性系统。',

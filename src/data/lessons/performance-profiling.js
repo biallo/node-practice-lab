@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'performance-profiling',
   title: '性能剖析与内存泄漏定位',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '现代 Node 提供了越来越多诊断入口：perf_hooks、inspector、trace events、heap snapshot 和 process 报告。\n性能问题要先定位瓶颈，再优化代码，而不是凭感觉改循环或换框架。',
   summary: '学习 event loop delay、CPU profile、heap snapshot、内存泄漏信号和诊断流程，建立性能排障的基本路径。',

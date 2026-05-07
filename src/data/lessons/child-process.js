@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'child-process',
   title: 'child_process 与外部命令',
-  meta: '实战 · v18+',
+  meta: '实战 · v18+ (2022+)',
   version:
     'child_process 是 Node 长期能力。\n旧脚本常用 exec 拼 shell 字符串；\n现代代码更推荐 spawn/execFile 传参数数组，明确 stdout/stderr、退出码、超时和注入风险。',
   summary: '学习 spawn、execFile、退出码、stdio、shell 注入和超时控制，安全地调用 git、ffmpeg、openssl 等外部工具。',

@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'network-core',
   title: 'net、tls 与 DNS 网络底层',
-  meta: '进阶 · v18+',
+  meta: '进阶 · v18+ (2022+)',
   version:
     'HTTP 框架隐藏了大量网络细节；\nNode 的 node:net、node:tls 和 node:dns 仍然是理解连接、超时、证书、解析和代理问题的关键入口。',
   summary: '学习 TCP socket、TLS、DNS lookup/resolve、连接超时和错误事件，理解 HTTP 之下发生了什么。',

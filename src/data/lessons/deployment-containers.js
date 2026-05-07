@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'deployment-containers',
   title: '部署、容器与运行时运维',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     'Node 服务进入容器和编排平台后，日志、信号、健康检查、环境变量、内存限制和镜像构建都会影响稳定性。\n现代 Node 工程要让应用适应平台，而不是只在本地 npm run dev 成功。',
   summary: '学习 Docker 信号、健康检查、graceful shutdown、env 注入、stdout/stderr 日志、memory limit 和 OOM 风险。',

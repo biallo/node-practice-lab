@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'config-env',
   title: '运行时配置与环境变量',
-  meta: '工程 · v20+',
+  meta: '工程 · v20+ (2023+)',
   version:
     '过去项目常依赖 dotenv 手动加载 .env；\n现代 Node 提供 --env-file 等能力，但生产配置仍要区分本地开发、CI、部署平台和 secret 管理。\n配置不是越灵活越好，而是越可验证越好。',
   summary: '学习环境变量、默认值、配置校验、secret、.env 文件和多环境部署，避免配置缺失在运行时才爆炸。',

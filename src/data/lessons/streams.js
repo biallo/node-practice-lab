@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "streams",
   "title": "Buffer、Stream 与 pipeline",
-  "meta": "进阶 · v18+",
+  "meta": "进阶 · v18+ (2022+)",
   "version": "Buffer 和 Stream 是 Node 长期核心能力；\n现代写法更推荐 stream/promises 的 pipeline，错误传播和完成状态都更清楚。",
   "summary": "理解二进制数据、流式处理、背压、Web Streams 互操作和 pipeline 的错误传播，能判断什么时候读全量、什么时候分块处理。",
   "explain": [

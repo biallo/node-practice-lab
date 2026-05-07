@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'timers-abort',
   title: 'Timers、AbortSignal 与调度',
-  meta: '实战 · v18+',
+  meta: '实战 · v18+ (2022+)',
   version:
     '旧代码常用 setTimeout 包 Promise 或 Promise.race 做超时；\n现代 Node 提供 node:timers/promises，并且越来越多 API 支持 AbortSignal。\n学习取消协议比手写超时包装更重要。',
   summary: '理解 setTimeout、setInterval、setImmediate、timers/promises、AbortController 和资源清理。',

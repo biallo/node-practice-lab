@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'http-server',
   title: 'node:http 服务端基础',
-  meta: '服务 · v18+',
+  meta: '服务 · v18+ (2022+)',
   version:
     '框架流行之前，node:http 就是 Node 服务端基础。\n现代项目常用 Fastify/Express，但理解原生 request/response、流式 body、header、状态码和优雅关闭，能帮你读懂任何框架。',
   summary: '从原生 http server 理解路由、请求体、JSON 响应、错误处理、超时和优雅关闭。',

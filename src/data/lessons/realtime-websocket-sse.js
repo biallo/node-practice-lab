@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'realtime-websocket-sse',
   title: '实时通信：WebSocket 与 SSE',
-  meta: '进阶 · v18+',
+  meta: '进阶 · v18+ (2022+)',
   version:
     'HTTP 请求响应模型不适合所有实时场景。\nNode 常用于 WebSocket、SSE、长连接和事件推送，但长连接会放大连接生命周期、心跳、背压、重连和广播成本。',
   summary: '学习 WebSocket 与 Server-Sent Events 的适用场景、连接生命周期、ping/pong、重连、背压和水平扩展边界。',

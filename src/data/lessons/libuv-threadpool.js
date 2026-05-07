@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'libuv-threadpool',
   title: 'libuv 线程池与并发边界',
-  meta: '进阶 · v18+',
+  meta: '进阶 · v18+ (2022+)',
   version:
     'Node 的异步能力不等于“所有工作都在一个神秘后台无限并行”。\n许多文件、压缩、加密和 DNS 相关操作会经过 libuv 线程池；现代服务需要理解事件循环、线程池和 Worker Threads 的边界。',
   summary: '理解 libuv 线程池、UV_THREADPOOL_SIZE、异步 I/O、CPU 任务和 Worker Threads 的区别，避免把并发调到失控。',

@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "test-runner",
   "title": "node:test 与工程质量",
-  "meta": "工程 · v20+",
+  "meta": "工程 · v20+ (2023+)",
   "version": "Node v20 之后内置测试运行器已经足够覆盖很多脚本、库和服务端基础逻辑。\n旧项目常默认 Jest/Mocha；\n新小项目可以先从 node:test 开始。",
   "summary": "用内置 test runner 写断言、异步测试、子测试、mock 和覆盖率，先建立测试思维，再按复杂度选择 Vitest/Jest。",
   "explain": [

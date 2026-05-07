@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'package-npm',
   title: 'package.json、npm 与依赖边界',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '旧项目常把 package.json 当成“能 npm install 就行”的清单；\n现代 Node 项目要理解 scripts、dependencies、devDependencies、engines、exports、lockfile 和 npm ci 的协作。\nNode v20/v22/v24 项目都应把可重复安装和发布边界作为基础工程能力。',
   summary: '掌握包元数据、脚本、依赖类型、lockfile、npm ci、engines 和发布入口，避免项目在本地能跑、CI 或生产却失败。',

@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'queues-idempotency',
   title: '队列、后台任务与幂等',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '真实系统常把慢任务、重试任务和跨服务副作用放进队列。\n队列不是“异步一下就稳了”，它引入 at-least-once 投递、重复消费、延迟、积压和死信处理等新边界。',
   summary: '学习 job queue、retry/backoff、dead letter、幂等 key、任务超时和 at-least-once 语义，设计可靠后台任务。',

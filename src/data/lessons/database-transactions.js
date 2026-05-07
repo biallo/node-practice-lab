@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'database-transactions',
   title: '数据库、事务与连接池',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     'Node 本身不绑定数据库，但真实服务几乎一定要面对连接池、事务、迁移、超时和一致性边界。\n现代后端能力不是会调用 query，而是知道数据操作失败、重试和并发冲突时系统会怎样。',
   summary: '学习连接池、事务、migration、prepared statement、超时、重试和幂等，理解 Node 与数据库之间的工程边界。',

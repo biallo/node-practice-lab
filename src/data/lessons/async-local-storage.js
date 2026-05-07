@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'async-local-storage',
   title: 'AsyncLocalStorage 与请求上下文',
-  meta: '进阶 · v18+ / v24 增强',
+  meta: '进阶 · v18+ (2022+) / v24 (2025) 增强',
   version:
     'AsyncLocalStorage 在 v16.4.0 后稳定，v24 增加 defaultValue 和 name 选项，v22.15.0/v23.11.0 标记 bind、snapshot 稳定。\n它是现代 Node 服务做 request id、trace id 和多租户上下文的重要基础。',
   summary: '学习如何在 Promise、回调和异步 I/O 链路中保留请求上下文，避免把 requestId 层层手动传参。',

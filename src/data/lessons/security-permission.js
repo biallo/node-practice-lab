@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "security-permission",
   "title": "权限模型与安全边界",
-  "meta": "现代 · v20+",
+  "meta": "现代 · v20+ (2023+)",
   "version": "权限模型从实验特性逐步走向更实用。\n它不是万能沙箱，但代表 Node 从“默认拥有全部能力”向“显式声明能力”演进。",
   "summary": "理解 --permission、文件/网络/子进程/worker 权限、输入校验、供应链和 secret 管理，知道它是安全带而不是沙箱。",
   "explain": [

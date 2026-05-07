@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'worker-threads',
   title: 'Worker Threads 与 CPU 密集任务',
-  meta: '进阶 · v18+',
+  meta: '进阶 · v18+ (2022+)',
   version:
     'worker_threads 从早期实验能力演进为稳定 API，官方文档明确它适合 CPU 密集 JavaScript 操作，不适合替代 Node 内置异步 I/O。\n现代服务要能区分 I/O 并发、CPU 并行和进程隔离。',
   summary: '学习 Worker、workerData、parentPort、消息传递和线程池设计，避免 CPU 任务阻塞主事件循环。',

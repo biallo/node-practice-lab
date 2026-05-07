@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'typescript-node',
   title: 'TypeScript 与 Node 项目边界',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     'Node 的 ESM、package exports 和 TypeScript 编译选项必须协同设计。\n现代项目要理解类型检查、运行时模块解析、声明文件、路径别名和运行时校验之间的边界。',
   summary: '学习 tsconfig、ESM + TS、moduleResolution、declaration、path alias 陷阱和静态类型与运行时校验的分工。',

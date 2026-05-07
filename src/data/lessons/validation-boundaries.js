@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'validation-boundaries',
   title: '数据校验与信任边界',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     'TypeScript、JSDoc 或 IDE 提示只能帮助开发期；\nNode 程序运行时仍会收到未知 JSON、环境变量、文件内容、消息队列事件和第三方响应。现代服务需要在边界处做运行时校验。',
   summary: '学习信任边界、schema validation、输入规范化、错误返回和内部类型收窄，避免让脏数据进入核心逻辑。',

@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'cli-stdio-signals',
   title: 'CLI、stdio 与进程信号',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     'Node 很早就适合写命令行工具；\n现代 CLI 更强调可组合的 stdio、清晰的退出码、可取消任务和优雅处理 SIGINT/SIGTERM。\n脚本不只是“本地能跑”，也应该能被 CI、shell 管道和自动化系统可靠调用。',
   summary: '学习 argv、stdin/stdout/stderr、exitCode、shebang、信号处理和优雅退出，写出可组合、可自动化的 Node CLI。',

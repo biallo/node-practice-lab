@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'package-publishing',
   title: '包发布、SemVer 与库边界',
-  meta: '进阶 · v18+',
+  meta: '进阶 · v18+ (2022+)',
   version:
     '现代 npm 包不只是上传一个入口文件；\n库作者需要设计 exports、types、SemVer、peerDependencies、发布文件范围和供应链安全，避免用户在升级时踩到隐藏边界。',
   summary: '学习库发布的公开 API、conditional exports、SemVer、peerDependencies、files、types 和 npm 发布安全。',

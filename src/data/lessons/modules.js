@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "modules",
   "title": "模块系统：CommonJS 与 ESM",
-  "meta": "核心 · v20+",
+  "meta": "核心 · v20+ (2023+)",
   "version": "CommonJS 是 Node 早期主流；\nESM 是现代 JavaScript 标准。\n新项目建议优先 ESM，维护旧项目时保留 .cjs 或 require 写法更稳。\nv22/v24 之后 ESM 互操作体验继续改善。",
   "summary": "学会判断模块格式、解析路径、导出形态和包入口，理解为什么现代 Node 项目要把 ESM/CJS 边界设计清楚。",
   "explain": [

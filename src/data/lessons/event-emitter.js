@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'event-emitter',
   title: 'EventEmitter 与事件驱动设计',
-  meta: '核心 · v18+',
+  meta: '核心 · v18+ (2022+)',
   version:
     'EventEmitter 是 Node 长期核心抽象，流、HTTP server、进程对象都受它影响。\n现代代码仍会用事件，但更强调事件命名、错误事件、once、AbortSignal 和避免监听器泄漏。',
   summary: '理解 on、once、emit、error、removeListener 和事件边界，知道什么时候事件驱动比直接函数调用更合适。',

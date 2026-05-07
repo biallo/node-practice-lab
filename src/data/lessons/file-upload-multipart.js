@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'file-upload-multipart',
   title: '文件上传与 multipart',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '文件上传把 HTTP、Stream、安全和资源清理都揉在一起。\n现代 Node 服务应该流式处理 multipart，限制大小，校验内容，并把临时文件和对象存储上传纳入生命周期管理。',
   summary: '学习 multipart/form-data、上传大小限制、MIME 校验、临时文件清理、流式上传和对象存储边界。',

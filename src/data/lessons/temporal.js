@@ -1,7 +1,7 @@
 export const lesson = {
   "id": "temporal",
   "title": "Temporal 与时间处理",
-  "meta": "前沿 · v26 Current",
+  "meta": "前沿 · v26 Current (2026)",
   "version": "Node v26 默认启用 Temporal，这是时间 API 的重大演进。\n但 v26 是 Current，不等于所有生产环境都已可用；\n项目采用前要检查目标 Node 版本。",
   "summary": "了解 Temporal 如何拆分日期、时间点、时区和持续时间，知道它适合解决什么问题，以及为什么 v26 Current 特性要谨慎落地。",
   "explain": [

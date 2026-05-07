@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'auth-cookie-session',
   title: '认证、Cookie、Session 与 CSRF',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '认证不是“生成一个 JWT”这么简单。\n现代 Web 服务需要理解 cookie flags、session、token 生命周期、CSRF、XSS 和服务端权限校验之间的边界。',
   summary: '学习 HttpOnly、Secure、SameSite、session vs JWT、CSRF、XSS、token 过期和刷新，建立认证授权基本模型。',

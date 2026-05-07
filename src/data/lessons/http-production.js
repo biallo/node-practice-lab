@@ -1,7 +1,7 @@
 export const lesson = {
   id: 'http-production',
   title: 'HTTP 生产边界与优雅关闭',
-  meta: '工程 · v18+',
+  meta: '工程 · v18+ (2022+)',
   version:
     '从能返回 JSON 到能稳定接入流量，中间还隔着超时、请求体大小、代理头、CORS、限流和优雅关闭。\n现代 Node 服务不应该只依赖框架默认值。',
   summary: '理解 HTTP 服务的生产边界：超时、body limit、CORS、代理、压缩、限流和 graceful shutdown。',
