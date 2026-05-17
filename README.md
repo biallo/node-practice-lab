@@ -6,9 +6,15 @@
 
 [https://biallo.github.io/node-practice-lab/](https://biallo.github.io/node-practice-lab/)
 
-## 运行
+## 开发
 
 ```sh
 npm install
 npm run dev
+```
+
+## 编译和构建
+
+```shell
+npm run build
 ```
