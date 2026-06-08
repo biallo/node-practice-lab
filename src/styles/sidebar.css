@@ -117,7 +117,7 @@
 
 .lesson-item {
   display: grid;
-  grid-template-columns: 36px minmax(0, 1fr) auto;
+  grid-template-columns: 36px minmax(0, 1fr);
   align-items: center;
   gap: 10px;
   width: 100%;
@@ -132,6 +132,10 @@
   transition:
     background 0.16s,
     border-color 0.16s;
+}
+
+.lesson-item:has(.lesson-status) {
+  grid-template-columns: 36px minmax(0, 1fr) auto;
 }
 
 .lesson-item:hover {
@@ -193,17 +197,13 @@
 }
 
 .lesson-status {
-  align-self: start;
-  white-space: nowrap;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
   border-radius: 999px;
-  padding: 3px 8px;
-  color: #667085;
-  background: #edf1f6;
-  font-size: 12px;
-  font-weight: 850;
-}
-
-.lesson-item.completed .lesson-status {
   color: #2f7d32;
   background: rgba(95, 160, 78, 0.16);
+  font-size: 12px;
+  font-weight: 850;
 }

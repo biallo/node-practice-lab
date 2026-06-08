@@ -72,7 +72,6 @@ export function Sidebar({ activeLesson, completedCount, lessons, onLessonSelect,
             className={[
               'lesson-item',
               lesson.id === activeLesson.id ? 'active' : '',
-              progress[lesson.id] ? 'completed' : '',
             ]
               .filter(Boolean)
               .join(' ')}
@@ -86,7 +85,11 @@ export function Sidebar({ activeLesson, completedCount, lessons, onLessonSelect,
               <small>{lesson.meta}</small>
               <span>{lesson.summary}</span>
             </span>
-            <span className="lesson-status">{progress[lesson.id] ? '已完成' : '学习中'}</span>
+            {
+              progress[lesson.id]
+                ? <span className="lesson-status">✓</span>
+                : ''
+            }
           </button>
         ))}
       </nav>
